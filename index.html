@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id="Home">
+      <div class="container">
+        <nav class="flex items-center justify-between">
+          <div class="left flex items-center justify-between">
+            <div class="logo">
+              <img src="Logo.png" alt="logo" width="100px" />
+            </div>
+            <div class="pages">
+              <a href="#Home">Home</a>
+              <a href="#About">About Us</a>
+              <a href="#freelance">Freelance</a>
+              <a href="#services">Services</a>
+            </div>
+          </div>
+          <div class="right">
+           <a href="#contact"><button class="btn btn-primary">Contact Us</button></a> 
+          </div>
+        </nav>
+        <div class="Home-Section flex items-center">
+          <div class="left">
+            <img src="bg removed.png" alt="profilepic" />
+          </div>
+          <div class="right">
+            <h3>Ayushya Chongder</h3>
+            <h1>I'm a FrontEnd <span>Developer</span></h1>
+            <p>
+              A Computer Enthusiast who thinks creatively and works best under
+              pressure and pays super attention to details and completes tasks
+              with absolute precision. Confident, team player and also a good
+              communicator.
+            </p>
+            <div>
+              <button class="btn-secondary">Download Resume</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="About" id="About">
+      <div class="container flex items-center">
+        <div>
+          <img class="about" src="4.jpg" alt="pic" />
+        </div>
+        <div class="writeup items-center justify-between">
+          <h1>About <span>Me</span></h1>
+          <h3>Hello I'm Ayushya Chongder!</h3>
+          <p>
+            A Computer Enthusiast who thinks creatively and works best under
+            pressure and pays super attention to details and completes tasks
+            with absolute precision. Confident, team player and also a good
+            communicator.I stay calm even under stress and still give my all to
+            complete the given task.
+          </p>
+          <div class="icons">
+            <a href="#"><img src="fb2.png" alt="facebook" /></a>
+            <a href="#"><img src="insta2.jpg" alt="Instagram" /></a>
+            <a href="#"><img src="lin.png" alt="LinkedIn" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="freelancer" id="freelance">
+        <h2>I am Available for <span>Freelancing</span>.</h2>
+        <p>I provide high standard design and website for your buissness along with its security.</p>
+        <button class="btn btn-primary">Download CV</button>
+    </section>
+     
+    <section class="services" id="services">
+      <div class="container">
+        <h1 class="section-heading"><span>Our </span>Services</h1>
+        <p>We design and develop your website to ensure better reach</p>
+        <div class="card-wrapper">
+          <div class="card">
+            <img src="website-design.png" alt="webdesign" />
+            <h2>Web Designing</h2>
+            <p>
+              The best way to reach out to more people is through visual appeal.
+            </p>
+          </div>
+          <div class="card">
+            <img src="web-programming.png" alt="webdesign" />
+            <h2>Web Developing</h2>
+            <p>
+              We develop the perfect websites for you using our best designs.
+            </p>
+          </div>
+          <div class="card">
+            <img src="content.png" alt="webdesign" />
+            <h2>Content Writing</h2>
+            <p>Our writings are easy to read and understand and is simple.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1 class="section-heading">Contact <span>Us</span></h1>
+        <p>We design and develop your website to ensure better reach</p>
+        <div class="card-wrapper">
+          <div class="card">
+            <img src="smartphone-call.png" alt="call" />
+            <h1>Call Us</h1>
+            <h6>+91 9330316493</h6>
+          </div>
+          <div class="card">
+            <img src="email.png" alt="call" />
+            <h1>E-mail Us</h1>
+            <h6>ayushyachongder@gmail.com</h6>
+          </div>
+        </div>
+        <form action="">
+            <div class="input-wrap">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your E-mail id">
+              </div>
+              <div class="input-wrap-2">
+                  <input type="text" placeholder="Your Subject">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Your Message...."></textarea>
+              </div>
+              <div>
+                  <button class="btn btn-primary send">Send Message</button>
+              </div>
+
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
